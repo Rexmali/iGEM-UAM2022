@@ -1,0 +1,109 @@
+line 540 %\par{Some systems are “chaotic” - extremely sensitive to small perturbations and unpredictable in the long run, showing the so-called “butterfly effect.” A complex system can also be path-dependent, that is, its future state depends not only on its present state, but also on its past history. %For example, weather constantly changing in unpredictable ways or financial volatility in the stock market. %It is reasonable to ask, is this all there is? Are equilibrium behaviour and oscillatory behaviour the only forms of behaviour that a system can display? To put it mathematically, are point attractors and limit cycle attractors the only kinds of attractors that can occur in dynamical systems? Interestingly, the answer is no. Think about fluid turbulence. Picture yourself in a boat on a river that’s in white-water turbulent flow. What is this? It certainly isn’t exhibiting static equilibrium behaviour, but neither is it periodic. Is it random? Not really: there are large-scale structures such as vortexes. Then what is it? }
+    %\par{It is now clear that a large number of phenomena, ranging from fluid turbulence to the flapping of a flag in the breeze to cardiac arrhythmias, are examples of a third kind of behaviour, which has come to be called chaos. Chaotic behaviour is represented mathematically by attractors of a third kind, called chaotic attractors. \cite{garfinkel_shevtsov_guo_2017}}
+
+    %\par{The chaos is a particular type of model since it has specific characteristics. Is defined as a dynamical behaviour which is deterministic, bounded in state space, irregular, and, most intriguingly, extremely sensitive to initial conditions. We will discuss each of the defining characteristics of chaos in turn. Its characteristics are the following: \cite{garfinkel_shevtsov_guo_2017}} 457
+
+
+    \par{El desarrollo de la ciencia en Latinoamérica presenta un sinfín de retos. La dificultad para acceder a textos técnicos en nuestra lengua materna es uno de ellos. En la competencia iGEM uno de los principales desafíos para muchos equipos es el área de modelado del proyecto, esto debido a que la mayoría de los participantes cuentan con una formación enfocada en áreas biológicas.}
+
+\par{Esta colaboración nace en la búsqueda de solucionar esta necesidad. Con la creación de este material introductorio al área de modelado buscamos compartir lo que hemos aprendido a lo largo de la competencia, para facilitar el inicio del trabajo de las áreas de modelado de futuros equipos.} 
+
+\par{El área de modelado matemático es una pieza fundamental para el desarrollo de proyectos, y con esto buscamos mostrar sus características y aplicaciones para ayudar al lector a adentrarse al modelado matemático.} 
+
+71 ESPAÑOL
+
+
+
+
+
+
+%Paqueting
+\documentclass[11pt, letterpaper, spanish]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[rightcaption]{sidecap}
+\usepackage{float}
+\usepackage{array}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{wrapfig}
+\usepackage{enumerate} 
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref} 
+\usepackage{latexsym}
+\usepackage{hyperref}
+\graphicspath{{images/}} 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+%Dates
+\title{Manual de modelado matemático}
+\nocite{*}
+
+\begin{document}
+
+\begin{titlepage}
+   \begin{center}
+       \vspace*{1cm}
+
+   {\Huge \textbf{Manual de modelado matemático }}
+
+       \vspace{0.5cm}
+        Una mirada al modelado matemático/informático en la biología sintética
+            
+       \vspace{3 cm}
+
+\centering\begin{tabular}{>{\centering\arraybackslash} c c c}
+iGEM UAM &  & iGEM Tec-Chihuahua \\
+igem.uam@gmail.com &  & igemtecchihuahua@gmail.com\\
+Universidad Autónoma Metropolitana &  & Instituto Tecnológico y de Estudios\\
+ &  & Superiores de Monterrey, Campus Chihuahua\\
+\end{tabular}
+
+  \vspace{2.0cm}
+        
+\includegraphics[width=16cm]{logos_uam_chih.png}
+
+       \vfill
+            
+       \vspace{0.8cm}
+     
+
+       México\\
+       Julio del 2022
+            
+   \end{center}
+\end{titlepage}
+
+\maketitle
+
+
+
+\newpage
+
+\tableofcontents
+
+\newpage 
+
+
+
+%BIBLIOGRAFIA QUE ENCONTRE EN EL DOC EN ESPAÑOL AL FINAL 
+
+\begin{thebibliography}{}
+\bibitem{Chap} \textsc{Bazaraa, M.S., J.J. Jarvis} \and \textsc{H.D. Sherali},
+\textit{Programación lineal y flujo en redes}, segunda edición,
+Limusa, México, DF, 2004.
+\bibitem{Dan} \textsc{Dantzig, G.B.} y \textsc{P. Wolfe},
+<<Decomposition principle for linear programs>>,
+\textit{https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1023/mod_resource/content/1/contenido/index.html, https://ciencia.unam.mx/leer/115/Modelacion_matematica_y_computacional_la_respuesta_al_anhelo_ancestral_de_predecir_a_la_naturaleza}, \textbf{8}, págs. 101--111, 1960.
+\end{thebibliography
+
+
+ % !!! COMENTARIO esto está muy muy parecido a lo del manual de Inglaterra, no hay problema de plagio? Un plagio y nos descalifican de la competencia 387
