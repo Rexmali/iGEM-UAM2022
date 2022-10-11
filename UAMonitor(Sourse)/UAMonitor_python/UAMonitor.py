@@ -5,6 +5,7 @@
 #  Silva Tovar Mauricio 
 #  Reyes Morales Laura Mariana 
 #  Carrasco González Mauricio 
+#  Hernandez Monzalvo Alicia Jacqueline
 #    October, 2022
 #                            iGEM UAM
 #-------------------------------------------------------------------------------
